@@ -284,7 +284,7 @@ For experienced practitioners looking to master cutting-edge AI technologies.
 
 | Learning Path | Duration | Prerequisites | Description |
 |---------------|----------|---------------|-------------|
-| [Introduction to data science on Azure](https://learn.microsoft.com/en-us/training/paths/explore-data-science-azure/) | 5-7 hours | Basic math | Data preparation, modeling, and evaluation on Azure |
+| [Introduction to data science on Azure](https://learn.microsoft.com/en-us/training/paths/explore-data-science-tools-azure/) | 5-7 hours | Basic math | Data preparation, modeling, and evaluation on Azure |
 | [Visualize data with Python](https://learn.microsoft.com/en-us/training/modules/python-data-visualization/) | 1-2 hours | Python basics | Data visualization techniques with matplotlib/seaborn |
 
 #### 🌿 Intermediate Level
@@ -293,7 +293,7 @@ For experienced practitioners looking to master cutting-edge AI technologies.
 |---------------|----------|---------------|-------------|
 | [Advanced Data Analysis](https://learn.microsoft.com/en-us/training/paths/perform-advanced-data-analysis/) | 12-15 hours | Data science basics | Advanced analytical techniques |
 | [Data Visualization](https://learn.microsoft.com/en-us/training/paths/create-dashboards-power-bi/) | 8-10 hours | Data analysis | Creating effective data visualizations |
-| [Big Data Analytics](https://learn.microsoft.com/en-us/training/paths/implement-big-data-analytics-azure/) | 15-20 hours | Data science experience | Large-scale data processing |
+| [Big Data Analytics](https://learn.microsoft.com/en-us/training/paths/azure-data-fundamentals/) | 15-20 hours | Data science experience | Large-scale data processing |
 
 #### 🌲 Advanced Level
 
