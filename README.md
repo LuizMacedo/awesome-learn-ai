@@ -1,10 +1,10 @@
 # 🤖 Awesome Learn AI
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Content: CC BY 4.0](https://img.shields.io/badge/Content-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![GitHub stars](https://img.shields.io/github/stars/LuizMacedo/awesome-learn-ai.svg?style=social&label=Star)](https://github.com/LuizMacedo/awesome-learn-ai)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Content: CC BY 4.0](https://img.shields.io/badge/Content-CC%20BY%204.0-blue.svg)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+![Last Updated](https://img.shields.io/github/last-commit/LuizMacedo/awesome-learn-ai)
 
 > 🎓 A comprehensive, curated collection of AI learning resources featuring Microsoft Learn's complete AI catalog, roadmaps, hands-on labs, and community-driven content to master Artificial Intelligence, Machine Learning, and Data Science.
 
@@ -32,6 +32,18 @@
 - [🤝 Contributing](#-contributing)
 - [📜 License](#-license)
 - [🙏 Acknowledgments](#-acknowledgments)
+
+---
+
+### Why this list
+This Awesome list curates official Microsoft Learn paths, modules, and labs for AI/ML, Azure AI, Azure ML, OpenAI on Azure, MLOps, Responsible AI, and Data Science. Inclusion criteria:
+- Official Microsoft Learn links only
+- Clear level (Beginner/Intermediate/Advanced)
+- Concise descriptions (1–3 lines)
+- Duration and key technologies when available
+- Periodic link checks and community PR reviews
+
+Jump to: [Beginner](#-beginner) • [Intermediate](#-intermediate) • [Advanced](#-advanced) • [Azure AI Services](#️-azure-ai-services) • [Azure Machine Learning](#️-azure-machine-learning) • [OpenAI & GPT Models](#-openai--gpt-models) • [MLOps](#-mlops) • [Responsible AI](#️-responsible-ai) • [Data Science](#-data-science)
 
 ---
 
@@ -116,9 +128,9 @@ For experienced practitioners looking to master cutting-edge AI technologies.
 
 | Learning Path | Duration | Prerequisites | Description |
 |---------------|----------|---------------|-------------|
-| [AI-900: Microsoft Azure AI Fundamentals](https://learn.microsoft.com/en-us/training/paths/get-started-with-artificial-intelligence-on-azure/) | 4-6 hours | None | Introduction to AI concepts, machine learning, and Azure AI services |
-| [Introduction to AI Technology](https://learn.microsoft.com/en-us/training/paths/introduction-to-ai-technology/) | 3-4 hours | None | Core AI concepts, types of AI, and real-world applications |
-| [AI Ethics and Responsible AI](https://learn.microsoft.com/en-us/training/paths/responsible-ai-business-principles/) | 2-3 hours | None | Understanding responsible AI development and ethical considerations |
+| [AI-900: Microsoft Azure AI Fundamentals](https://learn.microsoft.com/training/paths/azure-ai-fundamentals/) | 6-8 hours | None | Intro to AI concepts, ML vs. DL, and Azure AI services; prep for AI-900 exam |
+| [Describe generative AI](https://learn.microsoft.com/training/modules/fundamentals-generative-ai/) | 45-60 min | None | Core concepts of generative AI and common model types |
+| [Describe responsible AI](https://learn.microsoft.com/training/modules/responsible-ai/) | 45-60 min | None | Principles and practices for building responsible AI systems |
 
 #### 🌿 Intermediate Level
 
@@ -135,17 +147,14 @@ For experienced practitioners looking to master cutting-edge AI technologies.
 
 | Learning Path | Duration | Prerequisites | Description |
 |---------------|----------|---------------|-------------|
-| [Create Machine Learning Models](https://learn.microsoft.com/en-us/training/paths/create-machine-learn-models/) | 6-8 hours | Basic math | Introduction to ML algorithms and model creation |
-| [ML with Python](https://learn.microsoft.com/en-us/training/paths/intro-to-ml-with-python/) | 8-10 hours | Python basics | Machine learning using Python and scikit-learn |
-| [No-Code ML with Azure ML Studio](https://learn.microsoft.com/en-us/training/paths/create-no-code-predictive-models-azure-machine-learning/) | 4-6 hours | None | Build ML models without coding |
+| [Create no-code predictive models with Azure Machine Learning](https://learn.microsoft.com/training/modules/create-no-code-predictive-models-azure-machine-learning/) | 45-60 min | None | Build classification/regression models in Azure ML designer without code |
+| [Introduction to machine learning with Python](https://learn.microsoft.com/training/modules/intro-machine-learning-python/) | 1-2 hours | Python basics | ML basics using Python and scikit-learn |
 
 #### 🌿 Intermediate Level
 
 | Learning Path | Duration | Prerequisites | Description |
 |---------------|----------|---------------|-------------|
-| [Azure Machine Learning Fundamentals](https://learn.microsoft.com/en-us/training/paths/build-ai-solutions-with-azure-ml-service/) | 10-12 hours | ML basics | Comprehensive Azure ML platform training |
-| [Advanced ML Algorithms](https://learn.microsoft.com/en-us/training/paths/machine-learning-algorithms/) | 12-15 hours | ML fundamentals | Deep dive into various ML algorithms |
-| [Feature Engineering](https://learn.microsoft.com/en-us/training/paths/data-science-machine-learning-azure/) | 8-10 hours | ML basics, Python | Data preparation and feature engineering techniques |
+| [Train and deploy a model with Azure Machine Learning](https://learn.microsoft.com/training/paths/train-deploy-model-azure-machine-learning/) | 6-8 hours | ML basics | End-to-end training, deployment, and monitoring workflows in Azure ML |
 
 #### 🌲 Advanced Level
 
@@ -162,9 +171,7 @@ For experienced practitioners looking to master cutting-edge AI technologies.
 
 | Learning Path | Duration | Prerequisites | Description |
 |---------------|----------|---------------|-------------|
-| [Introduction to Deep Learning](https://learn.microsoft.com/en-us/training/paths/intro-to-deep-learning/) | 8-10 hours | ML fundamentals | Neural networks and deep learning basics |
-| [Computer Vision with Deep Learning](https://learn.microsoft.com/en-us/training/paths/computer-vision-microsoft-cognitive-toolkit/) | 12-15 hours | Deep learning basics | Image recognition and computer vision |
-| [Natural Language Processing](https://learn.microsoft.com/en-us/training/paths/explore-natural-language-processing/) | 10-12 hours | Deep learning basics | Text analysis and NLP with deep learning |
+| [Introduction to deep learning](https://learn.microsoft.com/training/modules/intro-deep-learning/) | 1-2 hours | ML fundamentals | Neural network fundamentals and common architectures |
 
 #### 🌲 Advanced Level
 
@@ -181,9 +188,8 @@ For experienced practitioners looking to master cutting-edge AI technologies.
 
 | Learning Path | Duration | Prerequisites | Description |
 |---------------|----------|---------------|-------------|
-| [Azure Cognitive Services](https://learn.microsoft.com/en-us/training/paths/explore-cognitive-services/) | 6-8 hours | Azure basics | Pre-built AI services for common tasks |
-| [Azure AI Vision](https://learn.microsoft.com/en-us/training/paths/create-computer-vision-solutions-azure-cognitive-services/) | 5-7 hours | Azure basics | Computer vision APIs and services |
-| [Azure AI Language](https://learn.microsoft.com/en-us/training/paths/develop-language-solutions-azure-ai/) | 5-7 hours | Azure basics | Natural language processing services |
+| [Analyze images with Azure AI Vision](https://learn.microsoft.com/training/modules/analyze-images-computer-vision/) | 45-60 min | Azure basics | Use Azure AI Vision to extract information from images |
+| [Analyze text with Azure AI Language](https://learn.microsoft.com/training/modules/analyze-text-language-service/) | 45-60 min | Azure basics | Key capabilities for classification, PII detection, and more |
 
 #### 🌿 Intermediate Level
 
@@ -239,9 +245,9 @@ For experienced practitioners looking to master cutting-edge AI technologies.
 
 | Learning Path | Duration | Prerequisites | Description |
 |---------------|----------|---------------|-------------|
-| [Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/) | 8-10 hours | AI basics | Using GPT models in Azure |
-| [Prompt Engineering](https://learn.microsoft.com/en-us/training/paths/prompt-engineering-azure-openai/) | 6-8 hours | OpenAI basics | Crafting effective prompts |
-| [Building AI-Powered Apps](https://learn.microsoft.com/en-us/training/paths/build-intelligent-apps-azure-openai/) | 10-12 hours | OpenAI experience | End-to-end AI application development |
+| [Get started with Azure OpenAI Service](https://learn.microsoft.com/training/modules/get-started-azure-openai/) | 45-60 min | AI basics | Provision Azure OpenAI and call GPT models responsibly |
+| [Prompt engineering techniques with Azure OpenAI](https://learn.microsoft.com/training/modules/prompt-engineering/) | 45-90 min | Azure OpenAI basics | Patterns and tactics to improve model responses |
+| [Build generative AI apps with Azure OpenAI and Azure AI Search](https://learn.microsoft.com/training/paths/build-apps-with-azure-openai/) | 5-7 hours | Azure OpenAI experience | RAG, retrieval, grounding, and end-to-end app development on Azure |
 
 #### 🌲 Advanced Level
 
@@ -254,45 +260,21 @@ For experienced practitioners looking to master cutting-edge AI technologies.
 
 ### 🔄 MLOps
 
-#### 🌿 Intermediate Level
-
-| Learning Path | Duration | Prerequisites | Description |
-|---------------|----------|---------------|-------------|
-| [MLOps Fundamentals](https://learn.microsoft.com/en-us/training/paths/mlops-fundamentals/) | 8-10 hours | ML experience | DevOps practices for ML |
-| [CI/CD for ML](https://learn.microsoft.com/en-us/training/paths/ml-cicd-azure/) | 10-12 hours | MLOps basics, DevOps | Automated ML pipelines |
-| [Model Monitoring](https://learn.microsoft.com/en-us/training/paths/monitor-ml-models/) | 6-8 hours | MLOps basics | Production model monitoring |
-
 #### 🌲 Advanced Level
 
 | Learning Path | Duration | Prerequisites | Description |
 |---------------|----------|---------------|-------------|
-| [Advanced MLOps](https://learn.microsoft.com/en-us/training/paths/advanced-mlops/) | 15-20 hours | MLOps experience | Enterprise MLOps strategies |
-| [ML Security & Governance](https://learn.microsoft.com/en-us/training/paths/ml-security-governance/) | 12-15 hours | MLOps experience | Secure and compliant ML operations |
+| [MLOps with Azure Machine Learning](https://learn.microsoft.com/training/paths/mlops-azure-machine-learning/) | 6-8 hours | Azure ML experience | CI/CD, model registry, governance, and monitoring at scale |
 
 ---
 
 ### ⚖️ Responsible AI
 
-#### 🌱 Beginner Level
-
-| Learning Path | Duration | Prerequisites | Description |
-|---------------|----------|---------------|-------------|
-| [AI Ethics Principles](https://learn.microsoft.com/en-us/training/paths/responsible-ai-principles/) | 3-4 hours | None | Fundamental ethical AI principles |
-| [Bias and Fairness](https://learn.microsoft.com/en-us/training/paths/ai-bias-fairness/) | 4-5 hours | AI basics | Understanding and mitigating AI bias |
-
 #### 🌿 Intermediate Level
 
 | Learning Path | Duration | Prerequisites | Description |
 |---------------|----------|---------------|-------------|
-| [AI Explainability](https://learn.microsoft.com/en-us/training/paths/ai-explainability/) | 6-8 hours | ML experience | Making AI decisions interpretable |
-| [Privacy in AI](https://learn.microsoft.com/en-us/training/paths/ai-privacy-protection/) | 5-7 hours | AI basics | Privacy-preserving AI techniques |
-
-#### 🌲 Advanced Level
-
-| Learning Path | Duration | Prerequisites | Description |
-|---------------|----------|---------------|-------------|
-| [AI Governance Framework](https://learn.microsoft.com/en-us/training/paths/ai-governance/) | 10-12 hours | Responsible AI basics | Enterprise AI governance |
-| [Regulatory Compliance](https://learn.microsoft.com/en-us/training/paths/ai-regulatory-compliance/) | 8-10 hours | AI governance | Meeting AI regulatory requirements |
+| [Develop AI solutions responsibly with Azure Machine Learning](https://learn.microsoft.com/training/paths/develop-ai-solutions-responsibly-azure-machine-learning/) | 4-6 hours | ML basics | Responsible AI dashboard, fairness, explainability, and error analysis |
 
 ---
 
@@ -302,9 +284,8 @@ For experienced practitioners looking to master cutting-edge AI technologies.
 
 | Learning Path | Duration | Prerequisites | Description |
 |---------------|----------|---------------|-------------|
-| [Data Science Fundamentals](https://learn.microsoft.com/en-us/training/paths/data-science-fundamentals/) | 8-10 hours | Basic math | Introduction to data science concepts |
-| [Python for Data Science](https://learn.microsoft.com/en-us/training/paths/python-data-science/) | 12-15 hours | Python basics | Data analysis with Python |
-| [Statistics for Data Science](https://learn.microsoft.com/en-us/training/paths/statistics-data-science/) | 10-12 hours | Basic math | Statistical foundations |
+| [Introduction to data science on Azure](https://learn.microsoft.com/training/paths/introduction-data-science-azure/) | 5-7 hours | Basic math | Data preparation, modeling, and evaluation on Azure |
+| [Visualize data with Python](https://learn.microsoft.com/training/modules/visualize-data-python/) | 1-2 hours | Python basics | Data visualization techniques with matplotlib/seaborn |
 
 #### 🌿 Intermediate Level
 
@@ -377,11 +358,19 @@ pip install jupyter notebook
 4. **Set up Resource Group**: Organize your Azure resources
 5. **Configure Authentication**: Set up service principals
 
+#### Catalog (optional, future)
+We may add a /catalog directory with YAML/JSON indexes of learning paths and modules to support automated updates and link checks.
+
 ---
 
 ## 🤝 Contributing
 
 We welcome contributions from the AI learning community! Here's how you can help make this resource even better:
+
+#### Contributing quickstart
+- Fork → create branch → add/update links → run link check → PR
+- Keep descriptions to 1–3 lines with level and duration
+- Use official Microsoft Learn URLs only
 
 ### 🎯 Ways to Contribute
 
@@ -411,6 +400,17 @@ We welcome contributions from the AI learning community! Here's how you can help
 - **🎯 Level**: Correctly categorize difficulty level
 - **🔗 Links**: Use official Microsoft Learn URLs only
 - **📋 Prerequisites**: Clearly list any requirements
+
+<details>
+<summary>Resource entry template</summary>
+
+- Title: [Exact title](URL)
+- Level: Beginner | Intermediate | Advanced
+- Duration: ~X–Y hours
+- Description: 1–3 line summary
+- Tags: ai, ml, azure, openai, vision, nlp, mlops, rai
+
+</details>
 
 ### 🏷️ Pull Request Template
 
@@ -498,7 +498,5 @@ This project is dual-licensed to support both code and content:
 ---
 
 **Happy Learning! 🚀🤖**
-
-*Last Updated: January 2025*
 
 </div>
