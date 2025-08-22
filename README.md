@@ -128,16 +128,16 @@ For experienced practitioners looking to master cutting-edge AI technologies.
 
 | Learning Path | Duration | Prerequisites | Description |
 |---------------|----------|---------------|-------------|
-| [AI-900: Microsoft Azure AI Fundamentals](https://learn.microsoft.com/en-us/training/paths/azure-ai-fundamentals/) | 8 hours 15 min | None | Intro to AI concepts, ML vs. DL, and Azure AI services; prep for AI-900 exam |
-| [Describe generative AI](https://learn.microsoft.com/en-us/training/modules/describe-generative-ai/) | 45-60 min | None | Core concepts of generative AI and common model types |
-| [Describe responsible AI](https://learn.microsoft.com/en-us/training/modules/describe-responsible-ai/) | 45-60 min | None | Principles and practices for building responsible AI systems |
+| [AI-900: Microsoft Azure AI Fundamentals](https://learn.microsoft.com/en-us/training/paths/get-started-with-artificial-intelligence-on-azure/) | 8 hours 15 min | None | Intro to AI concepts, ML vs. DL, and Azure AI services; prep for AI-900 exam |
+| [Describe generative AI](https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/) | 45-60 min | None | Core concepts of generative AI and common model types |
+| [Describe responsible AI](https://learn.microsoft.com/en-us/training/modules/responsible-ai-principles/) | 45-60 min | None | Principles and practices for building responsible AI systems |
 
 #### 🌿 Intermediate Level
 
 | Learning Path | Duration | Prerequisites | Description |
 |---------------|----------|---------------|-------------|
-| [Design and implement an Azure AI solution](https://learn.microsoft.com/en-us/training/paths/azure-ai-solution-engineer/) | 6-8 hours | AI Fundamentals | Design and implement AI solutions on Azure using various AI services |
-| [Custom AI Models](https://learn.microsoft.com/en-us/training/paths/build-train-machine-learning-models/) | 8-10 hours | Basic AI knowledge | Build and deploy custom AI models |
+| [Design and implement an Azure AI solution](https://learn.microsoft.com/en-us/training/paths/azure-ai-engineer/) | 6-8 hours | AI Fundamentals | Design and implement AI solutions on Azure using various AI services |
+| [Custom AI Models](https://learn.microsoft.com/en-us/training/paths/create-machine-learn-models/) | 8-10 hours | Basic AI knowledge | Build and deploy custom AI models |
 
 ---
 
@@ -147,21 +147,21 @@ For experienced practitioners looking to master cutting-edge AI technologies.
 
 | Learning Path | Duration | Prerequisites | Description |
 |---------------|----------|---------------|-------------|
-| [Create no-code predictive models with Azure Machine Learning](https://learn.microsoft.com/en-us/training/modules/build-ml-model-with-azure-ml-designer/) | 45-60 min | None | Build classification/regression models in Azure ML designer without code |
-| [Introduction to machine learning with Python](https://learn.microsoft.com/en-us/training/modules/intro-machine-learning-python/) | 1-2 hours | Python basics | ML basics using Python and scikit-learn |
+| [Create no-code predictive models with Azure Machine Learning](https://learn.microsoft.com/en-us/training/modules/create-classification-model-azure-machine-learning-designer/) | 45-60 min | None | Build classification/regression models in Azure ML designer without code |
+| [Introduction to machine learning with Python](https://learn.microsoft.com/en-us/training/modules/introduction-to-machine-learning-scikit-learn/) | 1-2 hours | Python basics | ML basics using Python and scikit-learn |
 
 #### 🌿 Intermediate Level
 
 | Learning Path | Duration | Prerequisites | Description |
 |---------------|----------|---------------|-------------|
-| [Train and deploy a model with Azure Machine Learning](https://learn.microsoft.com/en-us/training/paths/build-train-machine-learning-models/) | 6-8 hours | ML basics | End-to-end training, deployment, and monitoring workflows in Azure ML |
+| [Train and deploy a model with Azure Machine Learning](https://learn.microsoft.com/en-us/training/paths/create-machine-learn-models/) | 6-8 hours | ML basics | End-to-end training, deployment, and monitoring workflows in Azure ML |
 
 #### 🌲 Advanced Level
 
 | Learning Path | Duration | Prerequisites | Description |
 |---------------|----------|---------------|-------------|
-| [MLOps with Azure ML](https://learn.microsoft.com/en-us/training/paths/operate-machine-learning-azure/) | 15-20 hours | Intermediate ML | Production ML systems and operations |
-| [AutoML with Azure ML](https://learn.microsoft.com/en-us/training/paths/build-train-machine-learning-models/) | 10-12 hours | ML experience | Automated machine learning and optimization |
+| [MLOps with Azure ML](https://learn.microsoft.com/en-us/training/paths/introduction-machine-learning-operations/) | 15-20 hours | Intermediate ML | Production ML systems and operations |
+| [AutoML with Azure ML](https://learn.microsoft.com/en-us/training/paths/create-machine-learn-models/) | 10-12 hours | ML experience | Automated machine learning and optimization |
 
 ---
 
@@ -171,14 +171,14 @@ For experienced practitioners looking to master cutting-edge AI technologies.
 
 | Learning Path | Duration | Prerequisites | Description |
 |---------------|----------|---------------|-------------|
-| [Introduction to deep learning](https://learn.microsoft.com/en-us/training/modules/intro-deep-learning-pytorch/) | 1-2 hours | ML fundamentals | Neural network fundamentals and common architectures |
+| [Introduction to deep learning](https://learn.microsoft.com/en-us/training/modules/intro-to-deep-learning-pytorch/) | 1-2 hours | ML fundamentals | Neural network fundamentals and common architectures |
 
 #### 🌲 Advanced Level
 
 | Learning Path | Duration | Prerequisites | Description |
 |---------------|----------|---------------|-------------|
-| [Deep Learning with PyTorch](https://learn.microsoft.com/en-us/training/paths/pytorch-developer-fundamentals/) | 15-20 hours | Deep learning experience | PyTorch fundamentals and neural network architectures |
-| [Generative AI for Developers](https://learn.microsoft.com/en-us/training/paths/develop-generative-ai-solutions/) | 12-15 hours | Deep learning experience | Building applications with generative AI models |
+| [Deep Learning with PyTorch](https://learn.microsoft.com/en-us/training/paths/pytorch-fundamentals/) | 15-20 hours | Deep learning experience | PyTorch fundamentals and neural network architectures |
+| [Generative AI for Developers](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/) | 12-15 hours | Deep learning experience | Building applications with generative AI models |
 
 ---
 
@@ -188,16 +188,16 @@ For experienced practitioners looking to master cutting-edge AI technologies.
 
 | Learning Path | Duration | Prerequisites | Description |
 |---------------|----------|---------------|-------------|
-| [Analyze images with Azure AI Vision](https://learn.microsoft.com/en-us/training/modules/analyze-images-azure-computer-vision/) | 45-60 min | Azure basics | Use Azure AI Vision to extract information from images |
-| [Analyze text with Azure AI Language](https://learn.microsoft.com/en-us/training/modules/analyze-text-azure-ai-language/) | 45-60 min | Azure basics | Key capabilities for classification, PII detection, and more |
+| [Analyze images with Azure AI Vision](https://learn.microsoft.com/en-us/training/modules/analyze-images-computer-vision/) | 45-60 min | Azure basics | Use Azure AI Vision to extract information from images |
+| [Analyze text with Azure AI Language](https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/) | 45-60 min | Azure basics | Key capabilities for classification, PII detection, and more |
 
 #### 🌿 Intermediate Level
 
 | Learning Path | Duration | Prerequisites | Description |
 |---------------|----------|---------------|-------------|
-| [Azure AI Search](https://learn.microsoft.com/en-us/training/paths/implement-azure-cognitive-search/) | 8-10 hours | Azure AI services | Intelligent search and knowledge mining |
-| [Azure AI Document Intelligence](https://learn.microsoft.com/en-us/training/paths/extract-data-forms-document-intelligence/) | 6-8 hours | Azure AI services | Document processing and form recognition |
-| [Azure AI Speech](https://learn.microsoft.com/en-us/training/paths/develop-speech-applications/) | 6-8 hours | Azure AI services | Speech recognition and synthesis |
+| [Azure AI Search](https://learn.microsoft.com/en-us/training/paths/implement-knowledge-mining-azure-cognitive-search/) | 8-10 hours | Azure AI services | Intelligent search and knowledge mining |
+| [Azure AI Document Intelligence](https://learn.microsoft.com/en-us/training/paths/extract-data-from-forms-document-intelligence/) | 6-8 hours | Azure AI services | Document processing and form recognition |
+| [Azure AI Speech](https://learn.microsoft.com/en-us/training/paths/develop-speech-solutions/) | 6-8 hours | Azure AI services | Speech recognition and synthesis |
 
 ---
 
@@ -207,16 +207,16 @@ For experienced practitioners looking to master cutting-edge AI technologies.
 
 | Learning Path | Duration | Prerequisites | Description |
 |---------------|----------|---------------|-------------|
-| [Azure ML Workspace](https://learn.microsoft.com/en-us/training/paths/build-train-machine-learning-models/) | 8-10 hours | ML basics, Azure | Azure ML platform fundamentals |
-| [Model Training and Deployment](https://learn.microsoft.com/en-us/training/paths/train-deploy-azure-machine-learning/) | 10-12 hours | Azure ML basics | End-to-end ML model lifecycle |
-| [Azure ML Pipelines](https://learn.microsoft.com/en-us/training/paths/build-ml-pipelines-azure-ml/) | 8-10 hours | Azure ML experience | Automated ML workflows |
+| [Azure ML Workspace](https://learn.microsoft.com/en-us/training/paths/create-machine-learn-models/) | 8-10 hours | ML basics, Azure | Azure ML platform fundamentals |
+| [Model Training and Deployment](https://learn.microsoft.com/en-us/training/paths/train-models-azure-machine-learning/) | 10-12 hours | Azure ML basics | End-to-end ML model lifecycle |
+| [Azure ML Pipelines](https://learn.microsoft.com/en-us/training/paths/build-ml-pipelines-azure-machine-learning/) | 8-10 hours | Azure ML experience | Automated ML workflows |
 
 #### 🌲 Advanced Level
 
 | Learning Path | Duration | Prerequisites | Description |
 |---------------|----------|---------------|-------------|
-| [MLOps with Azure ML](https://learn.microsoft.com/en-us/training/paths/operate-machine-learning-azure/) | 12-15 hours | Azure ML experience | Production ML operations |
-| [Azure ML at Enterprise Scale](https://learn.microsoft.com/en-us/training/paths/implement-enterprise-mlops/) | 10-12 hours | MLOps experience | Enterprise ML governance and security |
+| [MLOps with Azure ML](https://learn.microsoft.com/en-us/training/paths/mlops-azure-machine-learning/) | 12-15 hours | Azure ML experience | Production ML operations |
+| [Azure ML at Enterprise Scale](https://learn.microsoft.com/en-us/training/paths/implement-mlops-azure/) | 10-12 hours | MLOps experience | Enterprise ML governance and security |
 
 ---
 
@@ -226,16 +226,16 @@ For experienced practitioners looking to master cutting-edge AI technologies.
 
 | Learning Path | Duration | Prerequisites | Description |
 |---------------|----------|---------------|-------------|
-| [Computer Vision Services](https://learn.microsoft.com/en-us/training/paths/explore-computer-vision-azure/) | 4-6 hours | None | Image analysis and computer vision with Azure AI |
-| [Natural Language Processing](https://learn.microsoft.com/en-us/training/paths/explore-natural-language-processing-azure/) | 4-6 hours | None | Text analysis and language understanding with Azure AI |
-| [Speech AI Services](https://learn.microsoft.com/en-us/training/paths/develop-speech-applications/) | 4-6 hours | None | Speech-to-text and text-to-speech capabilities |
+| [Computer Vision Services](https://learn.microsoft.com/en-us/training/paths/explore-computer-vision-microsoft-azure/) | 4-6 hours | None | Image analysis and computer vision with Azure AI |
+| [Natural Language Processing](https://learn.microsoft.com/en-us/training/paths/explore-natural-language-processing/) | 4-6 hours | None | Text analysis and language understanding with Azure AI |
+| [Speech AI Services](https://learn.microsoft.com/en-us/training/paths/develop-speech-solutions/) | 4-6 hours | None | Speech-to-text and text-to-speech capabilities |
 
 #### 🌿 Intermediate Level
 
 | Learning Path | Duration | Prerequisites | Description |
 |---------------|----------|---------------|-------------|
-| [Custom AI Solutions](https://learn.microsoft.com/en-us/training/paths/build-train-machine-learning-models/) | 8-10 hours | Cognitive Services basics | Building custom AI models and solutions |
-| [Multi-service AI Solutions](https://learn.microsoft.com/en-us/training/paths/azure-ai-solution-engineer/) | 6-8 hours | Cognitive Services experience | Combining multiple AI services for complex solutions |
+| [Custom AI Solutions](https://learn.microsoft.com/en-us/training/paths/create-machine-learn-models/) | 8-10 hours | Cognitive Services basics | Building custom AI models and solutions |
+| [Multi-service AI Solutions](https://learn.microsoft.com/en-us/training/paths/azure-ai-engineer/) | 6-8 hours | Cognitive Services experience | Combining multiple AI services for complex solutions |
 
 ---
 
@@ -245,16 +245,16 @@ For experienced practitioners looking to master cutting-edge AI technologies.
 
 | Learning Path | Duration | Prerequisites | Description |
 |---------------|----------|---------------|-------------|
-| [Get started with Azure OpenAI Service](https://learn.microsoft.com/en-us/training/modules/get-started-openai/) | 45-60 min | AI basics | Provision Azure OpenAI and call GPT models responsibly |
-| [Prompt engineering techniques with Azure OpenAI](https://learn.microsoft.com/en-us/training/modules/prompt-engineering-azure-openai/) | 45-90 min | Azure OpenAI basics | Patterns and tactics to improve model responses |
-| [Build generative AI apps with Azure OpenAI and Azure AI Search](https://learn.microsoft.com/en-us/training/paths/develop-generative-ai-solutions/) | 5-7 hours | Azure OpenAI experience | RAG, retrieval, grounding, and end-to-end app development on Azure |
+| [Get started with Azure OpenAI Service](https://learn.microsoft.com/en-us/training/modules/explore-azure-openai/) | 45-60 min | AI basics | Provision Azure OpenAI and call GPT models responsibly |
+| [Prompt engineering techniques with Azure OpenAI](https://learn.microsoft.com/en-us/training/modules/apply-prompt-engineering-azure-openai/) | 45-90 min | Azure OpenAI basics | Patterns and tactics to improve model responses |
+| [Build generative AI apps with Azure OpenAI and Azure AI Search](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/) | 5-7 hours | Azure OpenAI experience | RAG, retrieval, grounding, and end-to-end app development on Azure |
 
 #### 🌲 Advanced Level
 
 | Learning Path | Duration | Prerequisites | Description |
 |---------------|----------|---------------|-------------|
-| [Fine-tuning with Azure OpenAI](https://learn.microsoft.com/en-us/training/paths/develop-generative-ai-solutions/) | 12-15 hours | OpenAI experience | Custom model training and optimization with Azure OpenAI |
-| [Enterprise AI with Azure OpenAI](https://learn.microsoft.com/en-us/training/paths/develop-generative-ai-solutions/) | 10-12 hours | Advanced OpenAI | Large-scale AI implementations and enterprise patterns |
+| [Fine-tuning with Azure OpenAI](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/) | 12-15 hours | OpenAI experience | Custom model training and optimization with Azure OpenAI |
+| [Enterprise AI with Azure OpenAI](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/) | 10-12 hours | Advanced OpenAI | Large-scale AI implementations and enterprise patterns |
 
 ---
 
@@ -264,7 +264,7 @@ For experienced practitioners looking to master cutting-edge AI technologies.
 
 | Learning Path | Duration | Prerequisites | Description |
 |---------------|----------|---------------|-------------|
-| [MLOps with Azure Machine Learning](https://learn.microsoft.com/en-us/training/paths/operate-machine-learning-azure/) | 6-8 hours | Azure ML experience | CI/CD, model registry, governance, and monitoring at scale |
+| [MLOps with Azure Machine Learning](https://learn.microsoft.com/en-us/training/paths/mlops-azure-machine-learning/) | 6-8 hours | Azure ML experience | CI/CD, model registry, governance, and monitoring at scale |
 
 ---
 
@@ -274,7 +274,7 @@ For experienced practitioners looking to master cutting-edge AI technologies.
 
 | Learning Path | Duration | Prerequisites | Description |
 |---------------|----------|---------------|-------------|
-| [Develop AI solutions responsibly with Azure Machine Learning](https://learn.microsoft.com/en-us/training/paths/responsible-ai-engineering/) | 4-6 hours | ML basics | Responsible AI dashboard, fairness, explainability, and error analysis |
+| [Develop AI solutions responsibly with Azure Machine Learning](https://learn.microsoft.com/en-us/training/paths/responsible-ai-engineering-practices/) | 4-6 hours | ML basics | Responsible AI dashboard, fairness, explainability, and error analysis |
 
 ---
 
@@ -284,23 +284,23 @@ For experienced practitioners looking to master cutting-edge AI technologies.
 
 | Learning Path | Duration | Prerequisites | Description |
 |---------------|----------|---------------|-------------|
-| [Introduction to data science on Azure](https://learn.microsoft.com/en-us/training/paths/explore-data-science-azure/) | 5-7 hours | Basic math | Data preparation, modeling, and evaluation on Azure |
-| [Visualize data with Python](https://learn.microsoft.com/en-us/training/modules/explore-data-visualizations-python/) | 1-2 hours | Python basics | Data visualization techniques with matplotlib/seaborn |
+| [Introduction to data science on Azure](https://learn.microsoft.com/en-us/training/paths/explore-data-science-tools-azure/) | 5-7 hours | Basic math | Data preparation, modeling, and evaluation on Azure |
+| [Visualize data with Python](https://learn.microsoft.com/en-us/training/modules/python-data-visualization/) | 1-2 hours | Python basics | Data visualization techniques with matplotlib/seaborn |
 
 #### 🌿 Intermediate Level
 
 | Learning Path | Duration | Prerequisites | Description |
 |---------------|----------|---------------|-------------|
-| [Advanced Data Analysis](https://learn.microsoft.com/en-us/training/paths/perform-advanced-analytics/) | 12-15 hours | Data science basics | Advanced analytical techniques |
-| [Data Visualization](https://learn.microsoft.com/en-us/training/paths/create-power-bi-dashboards/) | 8-10 hours | Data analysis | Creating effective data visualizations |
-| [Big Data Analytics](https://learn.microsoft.com/en-us/training/paths/azure-data-scientist/) | 15-20 hours | Data science experience | Large-scale data processing |
+| [Advanced Data Analysis](https://learn.microsoft.com/en-us/training/paths/perform-advanced-data-analysis/) | 12-15 hours | Data science basics | Advanced analytical techniques |
+| [Data Visualization](https://learn.microsoft.com/en-us/training/paths/create-dashboards-power-bi/) | 8-10 hours | Data analysis | Creating effective data visualizations |
+| [Big Data Analytics](https://learn.microsoft.com/en-us/training/paths/azure-data-fundamentals/) | 15-20 hours | Data science experience | Large-scale data processing |
 
 #### 🌲 Advanced Level
 
 | Learning Path | Duration | Prerequisites | Description |
 |---------------|----------|---------------|-------------|
-| [Data Science at Scale](https://learn.microsoft.com/en-us/training/paths/implement-data-science-at-scale/) | 20-25 hours | Advanced data analysis | Enterprise data science practices |
-| [Real-time Analytics](https://learn.microsoft.com/en-us/training/paths/implement-streaming-analytics/) | 15-18 hours | Big data experience | Streaming data processing |
+| [Data Science at Scale](https://learn.microsoft.com/en-us/training/paths/implement-data-science-scale/) | 20-25 hours | Advanced data analysis | Enterprise data science practices |
+| [Real-time Analytics](https://learn.microsoft.com/en-us/training/paths/implement-real-time-analytics/) | 15-18 hours | Big data experience | Streaming data processing |
 
 ---
 
