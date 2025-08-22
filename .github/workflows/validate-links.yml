@@ -1,0 +1,88 @@
+name: 🔗 Link Validation
+
+on:
+  # Run on pull requests to validate new links
+  pull_request:
+    paths:
+      - 'README.md'
+      - 'CONTRIBUTING.md'
+      - '**/*.md'
+  
+  # Run weekly to catch broken links over time
+  schedule:
+    - cron: '0 8 * * 1'  # Every Monday at 8 AM UTC
+  
+  # Allow manual triggering
+  workflow_dispatch:
+
+jobs:
+  validate-links:
+    name: 🔍 Validate Microsoft Learn Links
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      
+      - name: 📦 Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+      
+      - name: 🔗 Validate links in README.md
+        run: |
+          echo "🔍 Validating Microsoft Learn links..."
+          python scripts/validate_links.py --output-report link_validation_report.md
+        continue-on-error: true
+        id: validate
+      
+      - name: 📄 Upload validation report
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: link-validation-report
+          path: link_validation_report.md
+          retention-days: 30
+      
+      - name: 📝 Comment on PR with results
+        if: github.event_name == 'pull_request' && failure()
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const fs = require('fs');
+            
+            try {
+              const report = fs.readFileSync('link_validation_report.md', 'utf8');
+              
+              await github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: `## 🔗 Link Validation Results\n\n⚠️ Some links appear to be broken. Please review the validation report:\n\n<details>\n<summary>📄 Click to view detailed report</summary>\n\n${report}\n\n</details>\n\n**Next steps:**\n1. Fix broken links by updating URLs\n2. Re-run validation: \`python scripts/validate_links.py\`\n3. Push changes to update this PR`
+              });
+            } catch (error) {
+              console.log('Could not read validation report:', error.message);
+              
+              await github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: `## 🔗 Link Validation Results\n\n❌ Link validation failed. Please run \`python scripts/validate_links.py\` locally to check for broken links.`
+              });
+            }
+      
+      - name: ✅ Success message
+        if: success()
+        run: |
+          echo "🎉 All Microsoft Learn links are working correctly!"
+      
+      - name: ❌ Fail on broken links
+        if: steps.validate.outcome == 'failure'
+        run: |
+          echo "❌ Broken links detected. Please fix them before merging."
+          exit 1
