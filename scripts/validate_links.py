@@ -51,21 +51,6 @@ class LinkValidator:
         return urls
     
     def check_url_status(self, url: str) -> Tuple[int, str]:
-        """Check URL status and return status code and message."""
-        try:
-            response = requests.get(url, headers=self.headers, timeout=10, allow_redirects=True)
-            
-            if response.status_code == 200:
-                return 200, f"OK{' (redirected)' if response.url != url else ''}"
-            else:
-                return response.status_code, f"HTTP {response.status_code}"
-        
-        except requests.exceptions.Timeout:
-            return -1, "TIMEOUT"
-        except requests.exceptions.ConnectionError:
-            return -2, "CONNECTION_ERROR"
-        except requests.exceptions.RequestException as e:
-            return -3, f"REQUEST_ERROR: {str(e)}"
         """Check URL status and return status code and message. Retries on transient network errors."""
         max_retries = 3
         delay = 2  # seconds
