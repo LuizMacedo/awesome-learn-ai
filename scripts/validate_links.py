@@ -67,7 +67,28 @@ class LinkValidator:
         except requests.exceptions.RequestException as e:
             return -3, f"REQUEST_ERROR: {str(e)}"
         except Exception as e:
-            return -4, f"UNKNOWN_ERROR: {str(e)}"
+        """Check URL status and return status code and message. Retries on transient network errors."""
+        max_retries = 3
+        delay = 2  # seconds
+        for attempt in range(1, max_retries + 1):
+            try:
+                response = requests.get(url, headers=self.headers, timeout=10, allow_redirects=True)
+                if response.status_code == 200:
+                    return 200, f"OK{' (redirected)' if response.url != url else ''}"
+                else:
+                    return response.status_code, f"HTTP {response.status_code}"
+            except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as e:
+                if attempt < max_retries:
+                    time.sleep(delay)
+                    continue
+                if isinstance(e, requests.exceptions.Timeout):
+                    return -1, "TIMEOUT"
+                else:
+                    return -2, "CONNECTION_ERROR"
+            except requests.exceptions.RequestException as e:
+                return -3, f"REQUEST_ERROR: {str(e)}"
+            except Exception as e:
+                return -4, f"UNKNOWN_ERROR: {str(e)}"
     
     def validate_links(self, file_path: str) -> Dict:
         """Validate all links in the file."""
