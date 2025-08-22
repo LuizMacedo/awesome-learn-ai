@@ -66,7 +66,6 @@ class LinkValidator:
             return -2, "CONNECTION_ERROR"
         except requests.exceptions.RequestException as e:
             return -3, f"REQUEST_ERROR: {str(e)}"
-        except Exception as e:
         """Check URL status and return status code and message. Retries on transient network errors."""
         max_retries = 3
         delay = 2  # seconds
