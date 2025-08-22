@@ -22,7 +22,7 @@ class LinkValidator:
     def __init__(self, check_all_links: bool = False):
         self.check_all_links = check_all_links
         self.headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+            'User-Agent': 'Mozilla/5.0 (compatible; LinkValidatorBot/1.0; +https://github.com/username/awesome-learn-ai)'
         }
     
     def extract_urls_from_markdown(self, file_path: str) -> List[Tuple[str, str, int]]:
