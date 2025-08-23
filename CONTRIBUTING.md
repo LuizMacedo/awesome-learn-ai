@@ -155,10 +155,28 @@ Brief description of your changes and why they're valuable.
 - [ ] Spell-checked and grammar-checked
 
 ## 🧪 Testing
-- [ ] Verified all links work
+- [ ] Verified all links work (use `python scripts/validate_links.py`)
 - [ ] Tested on mobile view
 - [ ] Checked markdown rendering
 - [ ] Validated content accuracy
+
+## 🔗 Link Validation
+
+Before submitting your PR, validate all links:
+
+```bash
+# Validate Microsoft Learn links
+python scripts/validate_links.py
+
+# Generate detailed report
+python scripts/validate_links.py --output-report broken_links.md
+```
+
+The validation script will:
+- ✅ Check all Microsoft Learn URLs  
+- 📊 Provide summary statistics
+- 📍 Show line numbers for broken links
+- 💡 Suggest actions for fixing issues
 
 ## 📷 Screenshots (if applicable)
 Include screenshots for UI changes or new sections.
@@ -183,6 +201,40 @@ Include screenshots for UI changes or new sections.
 - **Consistent Headers**: Use same header structure
 - **Proper Spacing**: Maintain consistent spacing
 - **Readable**: Ensure tables are easy to read
+
+#### 🔗 Link Validation Guidelines
+
+To maintain high-quality, working links:
+
+1. **Always validate links** before submitting:
+   ```bash
+   python scripts/validate_links.py
+   ```
+
+2. **Replace broken links** with working alternatives:
+   - Search Microsoft Learn for updated content
+   - Use the most current URL structure
+   - Prefer learning paths over individual modules when available
+
+3. **Avoid tracking parameters** in URLs:
+   - ❌ Bad: `https://learn.microsoft.com/path?wt.mc_id=tracking`
+   - ✅ Good: `https://learn.microsoft.com/path`
+
+4. **Common URL patterns** on Microsoft Learn:
+   - Learning Paths: `/training/paths/[path-name]/`
+   - Modules: `/training/modules/[module-name]/`
+   - Browse: `/training/browse/`
+
+5. **When links break**:
+   - Check if content was moved or renamed
+   - Look for successor content
+   - Remove if permanently deprecated
+   - Update description if content changed
+
+6. **Duration accuracy**:
+   - Verify time estimates match actual content
+   - Use format: "X hours Y min" or "X-Y hours"
+   - Check Microsoft Learn page for official duration
 
 ## 🔍 Review Process
 
